@@ -1,38 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+body {
+  font-family: 'Josefin Sans', cursive;
+  background-color: rgb(189, 157, 219);
+}
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.my-blog {
+  text-align: center;
+  color: rgb(3, 59, 3);
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.add-post-heading {
+  color: rgb(3, 59, 3); 
 }
+.posts {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 4rem 1rem 4rem;
+  margin: 1rem;
+  width: 20rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(142, 211, 211);
+  cursor: pointer;
+  text-decoration: none;
+}
+.edit-delete-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 7rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.add-post {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  width: 20rem;
+  height: 15rem;
+  padding: 2rem;
+}
+.category {
+  display: flex;
+  font-size: 15px;
+}
+.NavLink {
+ text-decoration: none;
+ color: brown;
+}
+.icon {
+  width:1rem;
+  height: 1rem
+}
+.title {
+  font-size: 22px;
+  padding-top: 1rem;
+}
+.time {
+  font-size: 16;
+  padding-top: 1rem;
+}
+.add-post-button {
+  display: flex;
+  height : 3rem;
+  width:8rem;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  background-color: chocolate;
+  margin-top: 2rem;
+  margin-left: 2rem;
   color: white;
+  outline: 0;
+  border: none;
+  border-radius: 5px;
 }
+.add-new-post {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 
-.App-link {
-  color: #61dafb;
 }
+.post-det-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.input-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 25rem;
+  margin-top: 1rem;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+}
+.input-heading {
+  color : brown;
+  width: 25%;
+}
+.input-text {
+  width: 15rem;
+  height: 2rem; 
+  padding-left: 2rem;
+  border-radius: 5px;
+  outline: 0;
+  border: none;
+}
+.text-area {
+  width: 13rem;
+  height: 8rem; 
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 5px;
+  outline: 0;
+  border: none;
+
+}
+.two-buttons {
+  display: flex;
+  width : 12rem;
+  height: 2rem;
+  margin-top: 2rem;
+  justify-content: space-between;
+  margin-left: 8rem;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width : 5rem;
+  height : 2rem;
+  background-color: green;
+  color : white;
+  outline: 0;
+  border: none;
+
+}
+.post-details {
+  width : 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8rem;
+}
+.post-heading {
+  color : rgb(161, 17, 41)
+}
+.post-description {
+  font-size: 20px;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
